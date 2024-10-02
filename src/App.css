@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#drum-machine {
+  background-color: blanchedalmond;
+  width: 30rem;
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.drum-pad-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  width: 15rem;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.drum-pad {  
+  width: 30%;
+  color: blanchedalmond;
+  
+}
+
+#display-wrapper {
+  background-color: cadetblue;
+  padding: 5px;
+  border-radius: 8px;
+
+}
+
+#display, .bank-text  {
+  color: black;
+  font-family: cursive, sans-serif;
+  font-weight: 800;
+}
+
+.switch-wrapper {
+  width: 50px;
+  margin: 10px auto;
+}
+
+#volume-input {
+  color: rgba(121, 6, 6, 0.86);
+}
+
+.bank-text {
+  margin-bottom: 0;
+}
+
+.switch-btn {
+  width: 50px;
+  height: 25px;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.switch {
+  width: 20px;
+  height: 15px;
+  margin-left: 15px;
+  background-color: blue;
+}
+
+#img-title {
+  width: 15rem;
+  border-radius: 10px;
+  margin: 10px;
+  animation: 1s ;
+  color: blanchedalmond;
+}
+
+h1 {
+  color: blanchedalmond;
+  
+}
+
+
+
+
